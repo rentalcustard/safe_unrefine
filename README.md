@@ -1,6 +1,6 @@
 # Safe Unrefine
 Ruby 2.0 introduces "Refinements". No one knows what problem they solve or how
-they work. This gem removes them.
+they work. This gem removes them. Probably.
 
 It is a safer version of https://github.com/mortice/unrefine, in that it uses
 refinements to remove refinements rather than globally modifying `Module`.
