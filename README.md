@@ -5,6 +5,8 @@ they work. This gem removes them.
 It is a safer version of https://github.com/mortice/unrefine, in that it uses
 refinements to remove refinements rather than globally modifying `Module`.
 
+This gem only works with Ruby 2.0+.
+
 ## How to use
     gem install safe_unrefine  
   
